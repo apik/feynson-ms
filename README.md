@@ -108,6 +108,13 @@ together with all the dependencies.
   is symmetric to a subfamily, some of the `n` indices will
   be `0`: the convention is that `i_0 = 0`.
 
+* `feynson` **ms** [`-d`] *spec-file*
+
+  Same as **symmetrize**, but for each non-unique family print
+  both the loop momenta substitution and the explicit mapping
+  rule, in the form `momenta-map -> mapping-rule`. For unique
+  families, print `{}`.
+
 * `feynson` **zero-sectors** [`-s`] *spec-file*
 
   Print a list of all zero sectors of a given integral
